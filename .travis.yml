@@ -1,2 +1,5 @@
 language: java 
-script: mvn test
+jdk:
+  - openjdk19
+install: mvn install
+test:mvn clean test
